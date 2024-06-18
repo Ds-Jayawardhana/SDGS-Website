@@ -55,7 +55,10 @@ a.active {
     color:#2dc653 ;
    
  }
- .footer-cont{
+ .ver-icons li i{
+    color:white;
+ }
+ .footer-cont,.footer-cont-main{
     display: grid;
     grid-template-columns: repeat(5,220px);
     background: #f9f8f9;
@@ -83,7 +86,7 @@ a.active {
     font-size: small;
  }
 
- li:hover{
+ .footer-cont li:hover{
     color:#4ad66d;
  }
 
@@ -95,8 +98,9 @@ a.active {
     
 }
 .footer-img{
-    width: 200px;
-    height: 129px;
+    width: 160px;
+    height: 106px;
+    padding-right: 220px;
 }
 .footer-2 .copyright {
     background-color: #f1f0f2;
@@ -114,4 +118,30 @@ a.active {
     display: flex;
     padding-left: 10px;
 
+}
+.footer-cont-main ul .social-icons{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    background-color:white;
+    border-radius: 100%;
+    
+    
+}
+.footer-cont-main span i{
+    
+    color: rgb(0, 0, 0);
+}
+.footer-cont-main span:hover{
+    background-color: #4ad66d;
+    
+    
+}
+.footer-cont-main span i:hover{
+    
+    color: rgb(255, 255, 255);
 }
