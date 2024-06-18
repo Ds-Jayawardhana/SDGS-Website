@@ -58,7 +58,7 @@ a.active {
  .footer-cont{
     display: grid;
     grid-template-columns: repeat(5,220px);
-    background: #ffffff;
+    background: #f9f8f9;
     bottom: 0;
     left:0;
     right:0;
@@ -108,4 +108,5 @@ a.active {
 }
 .copy-cont{
     text-align: center;
+    font-size: 10px;
 }
