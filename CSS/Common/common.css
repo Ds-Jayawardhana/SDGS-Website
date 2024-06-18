@@ -56,7 +56,8 @@ a.active {
    
  }
  .ver-icons li i{
-    color:white;
+    display: none;
+    
  }
  .footer-cont,.footer-cont-main{
     display: grid;
