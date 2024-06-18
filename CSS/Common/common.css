@@ -6,7 +6,7 @@ body {
     background-color: #ededed;
 }
 
-img {
+.head-img {
     float: left;
     padding-left: 50px;
     padding-right: 300px;
@@ -95,8 +95,8 @@ a.active {
     
 }
 .footer-img{
-    width: 200px;
-    height: 129px;
+    width: 180px;
+    height: 70px;
 }
 .footer-2 .copyright {
     background-color: #f1f0f2;
@@ -109,4 +109,9 @@ a.active {
 .copy-cont{
     text-align: center;
     font-size: 10px;
+}
+.icons ul{
+    display: flex;
+    padding-left: 10px;
+
 }
