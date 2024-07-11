@@ -1,0 +1,38 @@
+.hero-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hero-container{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.hero-heading{
+    color: #2DC653;
+}
+.columns-1 p{
+   color: #777777;
+   padding-bottom: 20px;
+
+
+}
+.hero-heading{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.sdg-btn{
+    display: inline;
+    background-color: white;
+    color: #2DC653;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid transparent;
+    
+}
+.sdg-btn:hover{
+    border-color: #2DC653;
+}
