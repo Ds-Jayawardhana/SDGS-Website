@@ -36,3 +36,30 @@
 .sdg-btn:hover{
     border-color: #2DC653;
 }
+.mission-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   background-color: white;
+    justify-content: space-around;
+}
+.missionn-container{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.mission-heading{
+    color: #2DC653;
+}
+.mission-columns-2 p{
+   color: #777777;
+   padding-bottom: 50px;
+   font-size: 18px;
+
+
+}
+.mission-heading{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
