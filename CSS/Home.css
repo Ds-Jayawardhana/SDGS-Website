@@ -63,3 +63,19 @@
     text-align: center;
 }
 
+.blog-btn{
+    display: inline;
+    background-color: white;
+    color:black;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid #2DC653;
+}
+.blog-btn:hover{
+ color:white;
+ background-color: #2DC653;
+
+}
