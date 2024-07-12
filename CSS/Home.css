@@ -43,10 +43,7 @@
    background-color: white;
     justify-content: space-around;
 }
-.missionn-container{
-    margin-right: 25px;
-    margin-left: 25px;
-}
+
 .mission-heading{
     color: #2DC653;
 }
@@ -64,7 +61,7 @@
 }
 
 .blog-btn{
-    display: inline;
+    
     background-color: white;
     color:black;
     padding: 10px 30px;
@@ -73,9 +70,33 @@
     text-decoration: none;
     font-weight: 500;
     border: 2px solid #2DC653;
+    
 }
 .blog-btn:hover{
  color:white;
  background-color: #2DC653;
+ 
 
+}
+.card-contents{
+    box-shadow: 0 4px 8px 0;
+    height: 420px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+
+}
+.card-contents img{
+    max-width: 280px;
+    padding-top: 10px;
+    border-radius: 12px;
+}
+.card-contents p{
+    color: #777777;
+    font-size:15px;
+    padding-bottom: 5px;
+}
+.contents-container{
+    display: flex;
 }
