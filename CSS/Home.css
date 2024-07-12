@@ -36,3 +36,67 @@
 .sdg-btn:hover{
     border-color: #2DC653;
 }
+.mission-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   background-color: white;
+    justify-content: space-around;
+}
+
+.mission-heading{
+    color: #2DC653;
+}
+.mission-columns-2 p{
+   color: #777777;
+   padding-bottom: 50px;
+   font-size: 18px;
+
+
+}
+.mission-heading{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.blog-btn{
+    
+    background-color: white;
+    color:black;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid #2DC653;
+    
+}
+.blog-btn:hover{
+ color:white;
+ background-color: #2DC653;
+ 
+
+}
+.card-contents{
+    box-shadow: 0 4px 8px 0;
+    height: 420px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+
+}
+.card-contents img{
+    max-width: 280px;
+    padding-top: 10px;
+    border-radius: 12px;
+}
+.card-contents p{
+    color: #777777;
+    font-size:15px;
+    padding-bottom: 5px;
+}
+.contents-container{
+    display: flex;
+}
