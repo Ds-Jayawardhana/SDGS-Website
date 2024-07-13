@@ -198,3 +198,12 @@ a.active {
 .content-post img{
     border-radius: 30px;
 }
+.contents-para p{
+    text-align: justify;
+    margin:40px 60px 40px 60px;
+    color: #777777;
+}
+.para-ol{
+    margin:40px 60px 40px 60px;
+
+}
