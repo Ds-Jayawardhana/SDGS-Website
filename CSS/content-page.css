@@ -190,3 +190,11 @@ a.active {
     width: 100%;
     padding: 10px;
 }
+.content-post{
+    text-align: center;
+    margin: 0 25px 0 25px;
+   
+}
+.content-post img{
+    border-radius: 30px;
+}
