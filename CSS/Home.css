@@ -75,6 +75,7 @@
 .blog-btn:hover{
  color:white;
  background-color: #2DC653;
+
  
 
 }
@@ -98,6 +99,7 @@
     padding-right: 10px;
     
 }
+
 .card-contents p{
     color: #777777;
     font-size:15px;
