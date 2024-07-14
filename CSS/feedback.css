@@ -37,8 +37,62 @@
     border-radius: 30px;
     padding: 10px;
 }
+.name b{
+    color: red;
+}
+
 
 textarea{
     resize: none;
     border-radius: 5px;
 }
+
+#yes1,#yes2,#yes3,#no1,#no2,#no3{
+    accent-color:green;
+    height: 25px;
+    width: 25px;
+    
+}
+.form-buttons{
+    margin-top: 20px;
+}
+#formpreview{
+    margin-right: 40px;
+    background-color:#ffffff;
+    color:rgb(0, 0, 0);
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    border: 2px solid #2DC653;
+    
+}
+#formpreview:hover{
+   
+    background-color:#2DC653;
+    color:rgb(255, 255, 255);
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-weight: 700;
+    border: 2px solid #2DC653;
+}
+#formsubmit{
+   
+    background-color:#2dc653;
+    color:white;
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    border: 2px solid #2DC653;
+} 
+#formsubmit:hover{
+   
+    background-color:#25a244;
+    color:white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-weight: 700;
+    border: 2px solid #25a244;
+} 
+
+
+

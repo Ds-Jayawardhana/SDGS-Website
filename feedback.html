@@ -40,18 +40,18 @@
     <h5 class="feed-descript">We Would Love To Here From You! Please Take Us A <br>
         Moment To Let Us Know About Your Experience</h5>
         <hr>
-        <div class="name"><label for="name">*Enter Your Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-</label>
+        <div class="name"><label for="name"><b>*</b>Enter Your Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-</label>
         <input type="text" id="nameinput" placeholder="John Doe" required>
         <br>
-        <div class="mail"><label for="email">*Enter Your Email Address :-</label>
+        <div class="mail"><label for="email"><b>*</b>Enter Your Email Address :-</label>
         <input type="text" id="email" placeholder="Johndoe@gmail.com"  required>
         <br></div>
         </div>
-        
-        <label for="visitoption">Was This is Your First Time Visiting</label><br>
-        <input type="radio" name="Visiting"   id="yes1"  >
+        <div class="visitor-texts"><center>
+            <label for="visitoption" class="visitor-op">Was This is Your First Time Visiting</label><br>
+        <input type="radio" name="Visiting" id="yes1"  >
         <label for="yes1">Yes</label>
-        <input type="radio" name="Visiting"   id="no1" >
+        <input type="radio" name="Visiting" id="no1" >
         <label for="no1">No</label>
         <br>
         <label for="informativeoption">Was this website informative and easy to navigate through</label><br>
@@ -63,12 +63,18 @@
         <textarea name="suggestion" id="Suggest" rows="6" cols="70"></textarea><br>
         <label for="satisfied">How satisfied with our services?</label>
         <label for="recommendservie">Would you recommend our services ?</label><br>
-        <input type="radio" name="informative" id="yes2"  >
-        <label for="yes2">Yes</label>
-        <input type="radio" name="informative" id="no2" >
-        <label for="no2">No</label><br>
+        <input type="radio" name="services" id="yes3"  >
+        <label for="yes3">Yes</label>
+        <input type="radio" name="services" id="no3" >
+        <label for="no3">No</label><br>
         <label for="additionq">Do you have additional Questions or Request ?</label><br>
-        <textarea name="suggestion" id="Suggest" rows="8" cols="80"></textarea><br>
+        <textarea name="suggestion" id="Suggest" rows="8" cols="80"></textarea><br></center></div>
+        <div class="form-buttons">
+            <center><input type="button" id="formpreview" value="Preview">
+            <input type="submit" id="formsubmit" action="submit" ></center>
+            
+        </div>
+        
 </div>
 </section>
 
