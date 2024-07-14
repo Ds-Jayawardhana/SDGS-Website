@@ -33,8 +33,8 @@
 
 <!--Feedback Form-->
 <section class="feedback">
-<div class="form-container">
-    <form action="#" id=feedbackform class="feedback-form" method="post"></form>
+<div class="form-container form content">
+    <form action="#" id=feedbackform class="feedback-form" method="post">
     <br>
     <h1 class="feed-topic">Website Client FeedBack Form</h1>
     <h5 class="feed-descript">We Would Love To Here From You! Please Take Us A <br>
@@ -48,28 +48,36 @@
         <br></div>
         </div>
 
-        <!--Visitor Row-->
-        <div>
-            <div class="visitor-texts"> <label for="visitoption" class="visitor-op">Was This is Your First Time Visiting?</label><br>
-            <input type="radio" name="Visiting" id="yes1" >
-            <input type="radio" name="Visiting" id="no1" ></div>
-           
-            <div class="visitor-labels-txt">
-            <label for="yes1">Yes</label>
-            <label for="no1">No</label></div>
-            
+        <center><label for="informativeoption">Was this your first time visiting ?</label></center>
+        <div class="group-option">
+             <input type="radio" name="informative" id="yes2" value="Yes" >
+             <label for="yes2">Yes</label>
+             <input type="radio" name="informative" id="no2" value="No">
+             <label for="no2">No</label>
         </div>
-        <label for="informativeoption">Was this website informative and easy to navigate through</label><br>
-        <input type="radio" name="informative" id="yes2"  >
-        <label for="yes2">Yes</label>
-        <input type="radio" name="informative" id="no2" >
-        <label for="no2">No</label><br>
-        <label for="suggestion">If "NO" ,Suggest any improvements for the future</label><br>
-        <textarea name="suggestion" id="Suggest" rows="6" cols="70"></textarea><br>
-        <label for="satisfied">How satisfied with our services?</label><br>
+
+       
+            
+        
+        <center><label for="informativeoption">Was this website informative and easy to navigate through</label></center>
+        <div class="group-option">
+             <input type="radio" name="informative" id="yes2" value="Yes" >
+             <label for="yes2">Yes</label>
+             <input type="radio" name="informative" id="no2" value="No">
+             <label for="no2">No</label>
+        </div>
+       
 
 
 
+     <center><label for="suggestion">If "NO" ,Suggest any improvements for the future</label><br>
+        <div class="txtarea-grp"></div>
+        <textarea name="suggestion" id="Suggest" rows="6" cols="70" class="txtara"></textarea><br>
+        <label for="satisfied">How satisfied with our services?</label><br></center>
+        
+
+
+     
         <!--Rating Scale Row-->
         <div class="rating-scale">
             <input type="radio" id="rating1" name="satisfaction" value="1">
@@ -92,27 +100,37 @@
             <label for="rating9">9</label>
             <input type="radio" id="rating10" name="satisfaction" value="10">
             <label for="rating10">10</label>
-            
+</div>
+            <div class="stis-grp">
+                <span>Not <br>Satisfied</span>
+                <span>Extremely <br>Satisfied</span>
+            </div><br>
+
+
+            <center><label for="informativeoption" class="reco">Would you recommend our services ?</label></center>
+        <div class="group-option">
+             <input type="radio" name="informative" id="yes2" value="Yes" >
+             <label for="yes2">Yes</label>
+             <input type="radio" name="informative" id="no2" value="No">
+             <label for="no2">No</label>
         </div>
-        
+            
 
 
-        <!--Recommend Section-->
-        <div class="label"><label for="recommendservie">Would you recommend our services ?</label><br>
-        <input type="radio" name="services" id="yes3"  >
-        <label for="yes3">Yes</label>
-        <input type="radio" name="services" id="no3" >
-        <label for="no3">No</label><br>
-        <label for="additionq">Do you have additional Questions or Request ?</label><br>
-        <textarea name="suggestion" id="Suggest" rows="8" cols="80"></textarea><br></center></div>
+
+        <div class="txtarea-grp">
+       <center> <label for="additionq">Do you have additional Questions or Request ?</label><br>
+        <textarea name="suggestion" id="Suggest" rows="8"></textarea><br></center>
         <div class="form-buttons">
             <center><input type="button" id="formpreview" value="Preview">
-            <input type="submit" id="formsubmit" action="submit" >
+            <input type="submit" id="formsubmit" action="submit" ></center>
             
-        </div></div>
+        </div>
+        </div>
         
         
 </div>
+</form>
 </section>
 
 
