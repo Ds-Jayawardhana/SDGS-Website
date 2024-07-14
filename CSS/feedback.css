@@ -21,7 +21,7 @@
    
 }
 .name{
-    margin: 50px 20px 20px 30px;
+    margin: 50px 20px 20px 90px;
 }
 .mail{
     margin-top: 20px;
@@ -31,6 +31,13 @@
     align-items: center;
     justify-content: center;
 }
+.name input{
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
 textarea{
     resize: none;
     border-radius: 5px;
