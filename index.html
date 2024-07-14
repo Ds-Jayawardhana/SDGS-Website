@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="CSS/Home.css">
 <link rel="stylesheet" href="CSS/Common/common.css">
+<script src="index.js"></script>
 
 <!-------Main Header------------>
 <title>15. Life On Land(Group I5)</title>
@@ -45,7 +46,17 @@
         Ecosystems, Sustainably Manage Forests,Combat Desertification, <br>
         and Halt and Reverse and Degradation and Halt Biodiversity Loss
         </p>
-        <a href="#ere" class="sdg-btn"><i class="fa-regular fa-circle-play"></i>&nbsp;&nbsp;Play SDG Video</a>
+        
+        <a href="#" id="videolink" class="sdg-btn"><i class="fa-regular fa-circle-play"></i>&nbsp;&nbsp;Play SDG Video</a>
+
+<div id="videopopup" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0XTBYMfZyrM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+                
+
       </div>
       <div class="columns-2">
         <h1 class="hero-heading">
@@ -222,5 +233,32 @@
         </div>
 
 </section>
+<script>
+  // Get the button that opens the popup
+  var btn = document.getElementById("videolink");
+
+  // Get the popup
+  var popup = document.getElementById("videopopup");
+
+  // Get the <span> element that closes the popup
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the popup
+  btn.onclick = function() {
+    popup.style.display = "flex";
+  }
+
+  // When the user clicks on <span> (x), close the popup
+  span.onclick = function() {
+    popup.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the popup, close it
+  window.onclick = function(event) {
+    if (event.target == popup) {
+      popup.style.display = "none";
+    }
+  }
+</script>
 </body>
 </html>
