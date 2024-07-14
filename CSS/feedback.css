@@ -1,0 +1,37 @@
+
+.form-container{
+    border-radius: 50px;
+    background-color: white;
+    margin: 50px 40px 0 40px;
+    height: 1000px;
+    width: 900px;
+    justify-content: center;
+
+}
+
+.feed-topic,.feed-descript{
+    text-align: center;
+}
+.feed-descript{
+    color: #777777;
+    font-weight: 400;
+}
+.form-container hr{
+    width: 80%;
+   
+}
+.name{
+    margin: 50px 20px 20px 30px;
+}
+.mail{
+    margin-top: 20px;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+}
