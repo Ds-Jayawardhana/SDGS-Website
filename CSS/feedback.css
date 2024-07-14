@@ -2,10 +2,11 @@
 .form-container{
     border-radius: 50px;
     background-color: white;
-    margin: 50px 40px 0 40px;
-    height: 1000px;
+    margin: 50px 0 0 ;
+    height: 1500px;
     width: 900px;
     justify-content: center;
+    margin-bottom: 100px;
 
 }
 
@@ -93,6 +94,54 @@ textarea{
     font-weight: 700;
     border: 2px solid #25a244;
 } 
+.rating-scale {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px 20px 0 ;
+    gap: 15px;
+    
+  }
+  .rating-scale input[type="radio"]{
+    display: none;
+  }
 
+  .rating-scale input[type="radio"]:checked + label {
+    background-color: #2DC653;
+     color: white;
+     border-color: #2DC653;
+  }
+  
+  
+  .rating-scale label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
+  
+  .rating-scale label:hover {
+    background-color: #e0e0e0;
+  }
+  .scale-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+.visitor-texts{
+    margin-left: 100px;
 
+}
+.visitor-labels-txt{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+    
