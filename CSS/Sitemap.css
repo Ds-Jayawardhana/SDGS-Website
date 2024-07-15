@@ -71,6 +71,20 @@ a.active {
     right:0;
    
 }
+
+.tooltip {
+    position: absolute;
+    display: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip img {
+    max-width: 200px;
+    max-height: 200px;
+}
 .icons{
     display: flex;
 }
