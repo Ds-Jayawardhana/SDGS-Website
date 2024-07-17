@@ -15,6 +15,7 @@
     <section class="hero">
     <div class="container_1">
         
+
     <div class="navbar" id="nav">
         <img class="head-img" src="/Img/Common/navimg.png" alt="Header Image" />
         <a href="common.html">Home</a>
@@ -53,41 +54,48 @@
     <h2 class = "title" id="title">Gallery</h2>
     <div class="gallery">
         <div class="box"> 
-            <img src="/Img/Gallery/img-1.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-1.jpg" alt="" data-text="Cillum et tempor pariatur sint est nostrud ea esse. Aute eiusmod aute in pariatur voluptate minim. Minim velit esse exercitation esse et laborum dolore ad. Excepteur ipsum veniam sit dolore minim enim. Cupidatat eu non velit dolor occaecat id ex officia sint aute velit Lorem duis.">
         
         </div>
         
        <div class="box">
-        <img src="/Img/Gallery/img-2.jpg" alt="">
+        <img class="modalImage" src="/Img/Gallery/img-2.jpg" alt="">
     </div> 
         <div class="box">
-            <img src="/Img/Gallery/img-3.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-3.jpg" alt="">
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-4.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-4.jpg" alt="">
         </div>
        <div class="box">
-        <img src="/Img/Gallery/img-5.jpg" alt="">
+        <img class="modalImage" src="/Img/Gallery/img-5.jpg" alt="">
     </div> 
         <div class="box">
-            <img src="/Img/Gallery/img-6.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-6.jpg" alt="">
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-7.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-7.jpg" alt="">
         
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-8.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-8.jpg" alt="">
         
         </div>
         <div class="box">
-            <img src="/Img/Gallery/img-9.jpg" alt="">
+            <img class="modalImage" src="/Img/Gallery/img-9.jpg" alt="">
         
         </div>
 
        
 </div>
 </div>
+
+
+<div id="ModalContainer" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="imageContainer">
+    <div id="caption"></div>
+  </div>
 
 
 
@@ -185,5 +193,8 @@
 
 <script src="/JS/themeChange.js"></script>
 <script src="/JS/fontChange.js"></script>
+
+<script src="JS/GalleryView.js" type="module"></script>
+
 </body>
 </html>

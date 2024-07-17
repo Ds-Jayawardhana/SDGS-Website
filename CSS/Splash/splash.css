@@ -31,6 +31,11 @@ p{
   0% { transform: rotate(0); }
   100% { transform: rotate(1turn); }
 }  
+.mission {
+  background-color: rgba(28, 48, 36, 0.603); /* White with 50% opacity */
+    padding: 15px;
+    border-radius: 10px;
+}
 table, td {
   border: 2.5px solid white;
   border-collapse: collapse;
