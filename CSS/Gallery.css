@@ -35,7 +35,7 @@ body {
 }
 
 .navbar {
-  background-color: #f5e3bb;
+  background-color: #ffffff;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .footer-cont-main {
-  background-color: #f5e3bb;
+  background-color: #ffffff;
 }
 .icons {
   display: flex;
@@ -113,7 +113,7 @@ li {
   padding-right: 220px;
 }
 .footer-2 .copyright {
-  background-color: #f5e3bb;
+  background-color: #ffffff;
   padding: 10px;
   bottom: 0;
   right: 0;
@@ -189,6 +189,7 @@ li {
   margin-bottom: 10px;
   text-align: center;
   padding: 15px;
+  width: 920px;
 }
 
 .container_2 .gallery {
@@ -206,14 +207,19 @@ li {
   margin: 0, 10px;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, -1);
   transition: 1s;
+  
 }
 
 .box img {
   display: block;
   width: 100%;
   border-radius: 5px;
+  
 }
 .box:hover {
   transform: scale(1.2);
   z-index: 1;
+  /* border:5px solid green;
+  overflow: hidden; */
+  
 }
