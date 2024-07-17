@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function() {
   var btn = document.getElementById("videolink");
 
 
@@ -22,3 +22,4 @@
       popup.style.display = "none";
     }
   }
+  });

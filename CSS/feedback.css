@@ -3,10 +3,10 @@
     border-radius: 50px;
     background-color: white;
     margin: 50px 0 0 ;
-    height: 1350px;
+    height: 1320px;
     width: 800px;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 
 }
 
@@ -45,7 +45,7 @@
     padding: 10px;
     border: 1px solid #ccc;
 }
-.name b{
+.req{
     color: red;
 }
 
@@ -191,4 +191,35 @@ textarea{
 }
 label{
     font-weight: 400;
+}
+.preview-container{
+    border-radius: 50px;
+    background-color: white;
+    margin: 20px 0 0 ;
+    width: 800px;
+    justify-content: center;
+    margin-bottom: 100px;
+
+
+}
+.pre-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.preview-container hr{
+    width:80%;
+}
+.preview-container h1{
+    text-align: center;
+    font-size: 30px;
+}
+.preview-container p{
+  
+font-weight: 400;
+}
+
+.gap-bet{
+    margin-left:60px  ;
 }

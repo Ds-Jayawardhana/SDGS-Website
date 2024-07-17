@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/Common/common.css">
 <link rel="stylesheet" href="css/feedback.css">
+<script src="JS/feedback.js"></script>
 <!-------Main Header------------>
 <title>15. Life On Land(Group I5)</title>
 </head>
@@ -33,22 +34,22 @@
 
 <!--Feedback Form-->
 <section class="feedback">
-<div class="form-container form content">
+<div class="form-container">
     <form action="#" id=feedbackform class="feedback-form" method="post">
     <br>
     <h1 class="feed-topic">Website Client FeedBack Form</h1>
     <h5 class="feed-descript">We Would Love To Here From You! Please Take Us A <br>
         Moment To Let Us Know About Your Experience</h5>
         <hr>
-        <div class="name"><label for="name"><b>*</b>Enter Your Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-</label>
+        <div class="name"><label for="name"><b class="req">*</b>Enter Your Name <span class="gap-bet"></span>:- </label>
         <input type="text" id="nameinput" placeholder="John Doe" required>
         <br>
-        <div class="mail"><label for="email"><b>*</b>Enter Your Email Address :-</label>
+        <div class="mail"><label for="email"><b class="req">*</b>Enter Your Email Address :-</label>
         <input type="text" id="email" placeholder="Johndoe@gmail.com"  required>
         <br></div>
         </div>
 
-        <center><label for="informativeoption">Was this your first time visiting ?</label></center>
+        <center><label for="visit"><b class="req">*</b>Was this your first time visiting ?</label></center>
         <div class="group-option">
              <input type="radio" name="visiting" id="yes1" value="Yes" >
              <label for="yes1">Yes</label>
@@ -59,11 +60,11 @@
        
             
         
-        <center><label for="informativeoption">Was this website informative and easy to navigate through</label></center>
+        <center><label for="informativeoption"><b class="req">*</b>Was this website informative and easy to navigate through</label></center>
         <div class="group-option">
-             <input type="radio" name="informative" id="yes2" value="Yes" >
+             <input type="radio" name="informative" id="yes2" value="Yes" required>
              <label for="yes2">Yes</label>
-             <input type="radio" name="informative" id="no2" value="No">
+             <input type="radio" name="informative" id="no2" value="No" required>
              <label for="no2">No</label>
         </div>
        
@@ -73,32 +74,32 @@
      <center><label for="suggestion">If "NO" ,Suggest any improvements for the future</label><br>
         <div class="txtarea-grp"></div>
         <textarea name="suggestion" id="Suggest" rows="6" cols="70" class="txtara"></textarea><br>
-        <label for="satisfied">How satisfied with our services?</label><br></center>
+        <label for="satisfied"><b class="req">*</b>How satisfied with our services?</label><br></center>
         
 
 
      
         <!--Rating Scale Row-->
         <div class="rating-scale">
-            <input type="radio" id="rating1" name="satisfaction" value="1">
+            <input type="radio" id="rating1" name="satisfaction" value="Extremely dissatisfied">
             <label for="rating1">1</label>
-            <input type="radio" id="rating2" name="satisfaction" value="2">
+            <input type="radio" id="rating2" name="satisfaction" value="Very dissatisfied">
             <label for="rating2">2</label>
-            <input type="radio" id="rating3" name="satisfaction" value="3">
+            <input type="radio" id="rating3" name="satisfaction" value="Dissatisfied">
             <label for="rating3">3</label>
-            <input type="radio" id="rating4" name="satisfaction" value="4">
+            <input type="radio" id="rating4" name="satisfaction" value="Somewhat dissatisfied">
             <label for="rating4">4</label>
-            <input type="radio" id="rating5" name="satisfaction" value="5">
+            <input type="radio" id="rating5" name="satisfaction" value="Neutral/Indifferent">
             <label for="rating5">5</label>
-            <input type="radio" id="rating6" name="satisfaction" value="6">
+            <input type="radio" id="rating6" name="satisfaction" value="Somewhat satisfied">
             <label for="rating6">6</label>
-            <input type="radio" id="rating7" name="satisfaction" value="7">
+            <input type="radio" id="rating7" name="satisfaction" value=" Satisfied">
             <label for="rating7">7</label>
-            <input type="radio" id="rating8" name="satisfaction" value="8">
+            <input type="radio" id="rating8" name="satisfaction" value="Very satisfied">
             <label for="rating8">8</label>
-            <input type="radio" id="rating9" name="satisfaction" value="9">
+            <input type="radio" id="rating9" name="satisfaction" value="Extremely satisfied">
             <label for="rating9">9</label>
-            <input type="radio" id="rating10" name="satisfaction" value="10">
+            <input type="radio" id="rating10" name="satisfaction" value="Completely satisfied">
             <label for="rating10">10</label>
 </div>
             <div class="stis-grp">
@@ -107,7 +108,7 @@
             </div><br>
 
 
-            <center><label for="irecommendation" class="reco">Would you recommend our services ?</label></center>
+            <center><label for="irecommendation" class="reco"><b>*</b>Would you recommend our services ?</label></center>
         <div class="group-option">
              <input type="radio" name="recommendation" id="yes3" value="Yes" >
              <label for="yes3">Yes</label>
@@ -120,7 +121,7 @@
 
         <div class="txtarea-grp">
        <center> <label for="additionq">Do you have additional Questions or Request ?</label><br>
-        <textarea name="suggestion" id="Suggest" rows="8"></textarea><br></center>
+        <textarea name="addition" id="additionq" rows="8"></textarea><br></center>
         <div class="form-buttons">
             <center><input type="button" id="formpreview" value="Preview">
             <input type="submit" id="formsubmit" action="submit" ></center>
@@ -134,12 +135,25 @@
 </section>
 
 <!--Preview Section-->
-<section>
-    <div class="preview-box">
-        <h4>Name :-</h4><p class="getname" id="nameget"></p>
-        
+<div class="pre-box-container">
+<div class="preview-container">
+    <div class="preview-heading">
+        <h1>Preview of Inputs</h1>
+        <hr>
     </div>
-</section>
+    <div class="preview-content" id="prviewcont">
+      <center><p id="previewName">Click Preview Button See the Input Details
+        <p id="previewEmail"></p>
+        <p id="previewVisit"></p>
+        <p id="previewInformative"></p>
+        <p id="previewSuggestion"></p>
+        <p id="previewSatisfaction"></p>
+        <p id="previewRecommendation"></p>
+        <p id="previewAdditional"></p></b></div>
+        </div></center>  
+   </div>     
+        
+</div>
 
 
 <!-------Main Footer------------>
@@ -227,12 +241,11 @@
             <p><b>&copy</b>&nbsp;&nbsp;copyright <b>United Nations.</b>&nbsp;Allrights Reserved.<br>Design By <b>Group I5</b></p>
             
             </div>
-            
-            
-            
+ 
         </div>
 
 </section>
+
 
 </body>
 </html>
